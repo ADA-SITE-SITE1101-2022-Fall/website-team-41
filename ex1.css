@@ -1,14 +1,63 @@
-h1{
-    color: red;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.rufat-description{
-    width: auto;
-    color: red;
+
+.div-nav{
+    position: fixed;
+    width: 100%;
 }
-.team-41{
-    text-align: right;
+
+h1.header{
+    float: left;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+li{
+    color: white;
+    float: right;
+    padding: 25px;
+}
+
+.group-name{
+    color: red;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 300px;
+    left: 100px;
+    top: 200px;
 }
 
 .about-us{
-    text-align: right;
+    margin-top: 10px;
+    
+}
+
+.ada-logo{
+    padding-left: 45px;
+    width: 1400px;
+    height: 750px;
+    padding-top: 100px;
+}
+
+div.about-us{
+    width: 50%;
+    background-image: url(https://blog.vantagecircle.com/content/images/2020/08/teamwork-and-team-building.png);
+    height:390px;
+}
+
+p.about-us{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 40px;
+    color:mediumblue;
+}
+
+p.description-us{
+    color: blue;
+    padding-left: 40px;
 }
